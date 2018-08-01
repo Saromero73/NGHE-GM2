@@ -5,3 +5,4 @@ i=instance_create_depth(x,y,1,objeneBullet)
 i.direction =270
 i.speed = random_range(1,4)
 alarm[1] = 40
+audio_play_sound(sndbullet,0,false);

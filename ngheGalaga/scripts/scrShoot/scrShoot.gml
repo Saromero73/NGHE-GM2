@@ -3,3 +3,4 @@ with(i)
 {
 motion_add(90,5);
 }
+audio_play_sound(sndPlayerShoot,1,false);
